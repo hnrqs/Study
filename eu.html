@@ -1,8 +1,9 @@
 <html>
 <title>Portfólio</title>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body {
+ body {
       @import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);
       font-family: Arial, sans-serif;
       background-color: rgb(221, 221, 219);
@@ -63,6 +64,15 @@
       background-color: #333;
       color: white;
     }
+    @media screen and (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .image {
+        margin-bottom: 20px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -118,6 +128,6 @@
       </tr>
     </table>
   </main>
-  <footer><p>&copy; 2024 <NAME></p></footer>
+  <footer><p>&copy; 2024 - HENRIQUE DE SOUZA PESSOTTI RANGEL </p></footer>
 </body>
 </html>
